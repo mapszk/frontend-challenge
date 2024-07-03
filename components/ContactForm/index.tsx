@@ -47,12 +47,14 @@ export default function ContactForm() {
       <form onSubmit={submit} className={styles.form}>
         <Input
           onChange={handleChangeName}
+          placeholder="Ingresa un nombre..."
           name="name"
           value={name}
           label="Nombre"
         />
         <Input
           onChange={handleChangeEmail}
+          placeholder="Ingresa un email..."
           name="email"
           type="email"
           value={email}
@@ -60,6 +62,7 @@ export default function ContactForm() {
         />
         <Textarea
           onChange={handleChangeMessage}
+          placeholder="Ingresa un mensaje..."
           name="message"
           value={message}
           label="Mensaje"

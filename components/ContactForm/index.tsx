@@ -34,6 +34,9 @@ export default function ContactForm() {
       });
       if (!res.ok) throw new Error();
       toast.success("Email enviado! Revisa tu correo");
+      setName("");
+      setEmail("");
+      setMessage("");
     } catch (err) {
       toast.error("Ha ocurrido un error");
     } finally {

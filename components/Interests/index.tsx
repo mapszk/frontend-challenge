@@ -6,13 +6,27 @@ export default function Interests() {
     <section className={styles.section}>
       <Title>Intereses</Title>
       <div className={styles.grid}>
-        <div className={styles.gridItem}>Cine</div>
-        <div className={styles.gridItem}>Lectura</div>
-        <div className={styles.gridItem}>Tenis</div>
-        <div className={styles.gridItem}>Tecnología</div>
-        <div className={styles.gridItem}>Viajar</div>
-        <div className={styles.gridItem}>Mascotas</div>
-        <div className={styles.gridItem}>Música</div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Cine
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Lectura
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Tenis
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Tecnología
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Viajar
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Mascotas
+        </div>
+        <div data-testid="grid-item" className={styles.gridItem}>
+          Música
+        </div>
       </div>
     </section>
   );

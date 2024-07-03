@@ -22,8 +22,24 @@
   object-fit: cover;
 }
 
+.title {
+  font-size: 36px;
+}
+
 .subtitle {
-  font-size: 16px;
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
+}
+.subtitle::after {
+  content: "";
+  width: 32px;
+  height: 5px;
+  border-radius: 10px;
+  left: 0;
+  bottom: -12px;
+  position: absolute;
+  background-color: #0052cc;
 }
 
 @media (min-width: 720px) {

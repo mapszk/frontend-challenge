@@ -1,0 +1,13 @@
+.title {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+.title::before {
+  content: "*";
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  transform: scale(200%);
+  color: #0052cc;
+}

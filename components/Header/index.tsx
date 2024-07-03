@@ -12,7 +12,7 @@ export default function Header() {
           alt="Profile image"
         />
       </div>
-      <div>
+      <div className={styles.texts}>
         <h1 className={styles.title}>Martin Pilaszek</h1>
         <h2 className={styles.subtitle}>Front-end developer</h2>
       </div>

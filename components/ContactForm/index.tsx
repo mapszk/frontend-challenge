@@ -6,6 +6,7 @@ import Input from "../Input";
 import Textarea from "../Textarea";
 import styles from "./form.module.css";
 import toast from "react-hot-toast";
+import Title from "../Title";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -42,7 +43,7 @@ export default function ContactForm() {
 
   return (
     <section className={styles.section}>
-      <h1 className={styles.title}>Contacto</h1>
+      <Title>Contacto</Title>
       <form onSubmit={submit} className={styles.form}>
         <Input
           onChange={handleChangeName}

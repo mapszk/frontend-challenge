@@ -1,9 +1,10 @@
+import Title from "../Title";
 import styles from "./about.module.css";
 
 export default function About() {
   return (
     <section className={styles.section}>
-      <h1 className={styles.title}>Sobre mi</h1>
+      <Title>Sobre mi</Title>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam amet
         repellat unde ad ipsa nemo similique iste, assumenda delectus

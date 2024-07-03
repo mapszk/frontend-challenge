@@ -1,9 +1,6 @@
 .section {
   padding: 20px 0;
 }
-.title {
-  margin-bottom: 15px;
-}
 
 .form {
   display: flex;

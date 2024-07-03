@@ -1,9 +1,10 @@
+import Title from "../Title";
 import styles from "./interests.module.css";
 
 export default function Interests() {
   return (
     <section className={styles.section}>
-      <h1 className={styles.title}>Intereses</h1>
+      <Title>Intereses</Title>
       <div className={styles.grid}>
         <div className={styles.gridItem}>Cine</div>
         <div className={styles.gridItem}>Lectura</div>

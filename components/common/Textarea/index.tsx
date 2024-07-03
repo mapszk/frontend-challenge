@@ -18,6 +18,7 @@ export default function Textarea({ onChange, value, label, name }: Props) {
     <div className={styles.inputContainer}>
       {label && <label htmlFor={name}>{label}</label>}
       <textarea
+        data-testid="textarea"
         onChange={handleChange}
         className={styles.textarea}
         value={value}

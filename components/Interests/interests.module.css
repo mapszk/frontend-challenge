@@ -1,0 +1,39 @@
+.section {
+  padding: 20px 0;
+}
+.title {
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gridItem {
+  background-color: #0052cc;
+  color: white;
+  display: flex;
+  place-content: center;
+  padding: 15px 0;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.gridItem:hover {
+  transform: translateY(-3px);
+}
+.gridItem::after {
+  content: "#";
+  z-index: -1;
+  color: #0c64e9;
+  position: absolute;
+  font-size: 72px;
+  font-weight: 700;
+  right: -5px;
+  bottom: -20px;
+  transform: rotate(-25deg) scale(110%);
+}

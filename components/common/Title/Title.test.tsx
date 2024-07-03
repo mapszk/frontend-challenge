@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Title from "./index";
 
-describe("Header component", () => {
+describe("Heading component", () => {
   it("renders a heading", () => {
     const testMessage = "Test";
     render(<Title>{testMessage}</Title>);

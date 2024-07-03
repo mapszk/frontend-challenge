@@ -7,14 +7,14 @@ export default function Header() {
       <div className={styles.imageContainer}>
         <Image
           className={styles.image}
-          src="https://thispersondoesnotexist.com/"
+          src="/profile.jpg"
           fill={true}
           alt="Profile image"
         />
       </div>
       <div className={styles.texts}>
-        <h1 className={styles.title}>Martin Pilaszek</h1>
-        <h2 className={styles.subtitle}>Front-end developer</h2>
+        <h1 className={styles.title}>John Doe</h1>
+        <h2 className={styles.subtitle}>Desarrollador web</h2>
       </div>
     </header>
   );

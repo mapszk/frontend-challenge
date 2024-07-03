@@ -1,0 +1,17 @@
+.button {
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 40px;
+  color: #fafafa;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(32, 84, 255);
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}

@@ -12,3 +12,6 @@
   font-family: inherit;
   padding: 0 10px;
 }
+.input:focus {
+  outline-color: #0052cc;
+}

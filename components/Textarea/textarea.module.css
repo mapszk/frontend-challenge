@@ -13,3 +13,6 @@
   font-family: inherit;
   resize: none;
 }
+.textarea:focus {
+  outline-color: #0052cc;
+}

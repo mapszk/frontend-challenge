@@ -19,6 +19,7 @@ export default function Input({ type, onChange, value, label, name }: Props) {
     <div className={styles.inputContainer}>
       {label && <label htmlFor={name}>{label}</label>}
       <input
+        data-testid="input"
         className={styles.input}
         value={value}
         onChange={handleChange}

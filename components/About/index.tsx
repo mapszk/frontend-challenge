@@ -1,4 +1,4 @@
-import Title from "../Title";
+import Title from "../common/Title";
 import styles from "./about.module.css";
 
 export default function About() {

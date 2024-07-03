@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import Button from "../Button";
-import Input from "../Input";
-import Textarea from "../Textarea";
+import Button from "../common/Button";
+import Input from "../common/Input";
+import Textarea from "../common/Textarea";
 import styles from "./form.module.css";
 import toast from "react-hot-toast";
-import Title from "../Title";
+import Title from "../common/Title";
 
 export default function ContactForm() {
   const [name, setName] = useState("");

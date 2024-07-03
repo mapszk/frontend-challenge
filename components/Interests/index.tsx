@@ -1,4 +1,4 @@
-import Title from "../Title";
+import Title from "../common/Title";
 import styles from "./interests.module.css";
 
 export default function Interests() {
